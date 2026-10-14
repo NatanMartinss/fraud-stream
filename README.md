@@ -1,6 +1,6 @@
 # Real-time fraud detection
 
-> Thousands of card transactions per second, each scored and blocked or approved in under 20 ms.
+> Thousands of card transactions per second, each scored and blocked or approved within a 20 ms latency budget (target, not yet measured on the real pipeline).
 
 **Interactive demo:** [natanmartins.com.br/projects/fraud-stream](https://natanmartins.com.br/projects/fraud-stream/) · [versão em português](https://natanmartins.com.br/pt/projects/fraud-stream/)
 
