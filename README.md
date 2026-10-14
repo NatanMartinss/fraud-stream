@@ -34,7 +34,7 @@ flowchart LR
 3. Redis holds the long-lived profile (typical merchants, home region) so the stream job never touches a database.
 4. A gradient-boosted model, compiled to native code, turns features into a fraud probability. A threshold, tuned on the cost of false blocks versus missed fraud, makes the call.
 
-**Stack:** Redpanda · Apache Flink · Redis · XGBoost → Treelite · Prometheus
+**Stack:** Redpanda · Apache Flink · Redis · XGBoost → TL2cgen · Prometheus
 
 ## What exists today
 
